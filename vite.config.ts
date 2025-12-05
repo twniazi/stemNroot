@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: "/stemNroot/",   // <-- REQUIRED FOR GITHUB PAGES
   optimizeDeps: {
-    exclude: ['lucide-react'], // <-- tumhari original setting safe
+    exclude: ['lucide-react'], // tumhari original setting safe
   },
 });
